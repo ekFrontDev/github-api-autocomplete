@@ -1,0 +1,63 @@
+.wrapper-form {
+	background-color: rgba(196, 196, 196, 1);
+	width: 661px;
+	height: 763px;
+	margin: 0 auto;
+}
+
+.form {
+	display: block;
+	padding-top: 62px;
+}
+
+input {
+	width: 487px;
+	height: 61px;
+	padding: 5px 13px 5px 13px;
+	border-radius: 0;
+	border: none;
+	display: block;
+	margin: 0 auto;
+	font-size: 48px;
+}
+
+.autocomplete-card {
+	list-style-type: none;
+	display: block;
+	width: 500px;
+	height: 42px;
+	border: 2px solid #000000;
+	background-color: rgba(227, 227, 227, 1);
+	margin: 0 auto;
+	padding-left: 13px;
+	font-size: 30px;
+}
+
+.autocomplete-card:hover {
+	background-color: rgba(101, 205, 249, 1);
+	cursor: pointer;
+}
+
+.card-repo {
+	display: none;
+	width: 480px;
+	height: 84px;
+	background-color: rgba(226, 123, 235, 1);
+	border: 2px solid #000000;
+	margin: 0 auto;
+	padding: 8px 17px 8px 16px;
+	position: relative;
+	background-image: URL("/img/Vector\ 5.svg"), URL("/img/Vector\ 6.svg");
+	background-repeat: no-repeat;
+	background-size: 15%;
+	background-position: bottom 50% right 4%;
+}
+
+li:last-child {
+	margin-bottom: 45px;
+}
+
+.cardID {
+	font-size: 24px;
+	width: 400px;
+}
